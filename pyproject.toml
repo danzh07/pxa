@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pxa-analysis"
+version = "0.1.0"
+description = "PXA data analysis tools"
+requires-python = ">=3.8"
+
+[project.dependencies]
+numpy = ">=1.22.0"
+pandas = ">=2.0.0"
+matplotlib = ">=3.5.0"
+scipy = ">=1.8.0"
+lifelines = ">=0.27.0"
+seaborn = ">=0.12.0"
+jupyter = ">=1.0.0"
+loguru = ">=0.6.0"
