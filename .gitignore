@@ -30,11 +30,6 @@ venv/
 env/
 ENV/
 
-# Data Files (consider if you want to exclude these)
-data/*.csv
-results/
-figures/
-
 # OS specific
 .DS_Store
 Thumbs.db 

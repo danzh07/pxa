@@ -1,0 +1,540 @@
+2025-04-04T19:36:11.323525-0400 | INFO | Output directory set to: /Users/nishant/Dropbox/Sinha/Lab/Publications/2025/DanPXA/pxa/figures
+2025-04-04T19:36:11.323755-0400 | INFO | Loading data from /Users/nishant/Dropbox/Sinha/Lab/Publications/2025/DanPXA/pxa/data/pxa_data.csv
+2025-04-04T19:36:11.365104-0400 | INFO | Loaded data with 35 patients
+2025-04-04T19:36:11.369707-0400 | INFO | Created groups: initial seizure (25 patients), initial other (10 patients)
+2025-04-04T19:36:11.369854-0400 | INFO | Created groups: tumor epilepsy (27 patients), no tumor epilepsy (8 patients)
+2025-04-04T19:36:11.369963-0400 | INFO | === TABLE 1: CLINICAL CHARACTERISTICS ===
+2025-04-04T19:36:11.370066-0400 | INFO | Total patients: 35
+2025-04-04T19:36:11.370166-0400 | INFO | Initial seizure: 25 (0.71)
+2025-04-04T19:36:11.370261-0400 | INFO | Initial other symptoms: 10 (0.29)
+2025-04-04T19:36:11.370355-0400 | INFO | Tumor epilepsy: 27 (0.77)
+2025-04-04T19:36:11.370447-0400 | INFO | No tumor epilepsy: 8 (0.23)
+2025-04-04T19:36:11.370541-0400 | INFO | 
+=== CONTINUOUS VARIABLES ===
+2025-04-04T19:36:11.375160-0400 | INFO | Initial symptom: Age: Group 1 - Median: 21.0 (Range: 1.0-44.0)
+2025-04-04T19:36:11.375315-0400 | INFO | Initial symptom: Age: Group 2 - Median: 27.5 (Range: 17.0-50.0)
+2025-04-04T19:36:11.377746-0400 | INFO | t-test for presentation_1_age: p-value=0.0696
+2025-04-04T19:36:11.381278-0400 | INFO | Tumor epilepsy: Age: Group 1 - Median: 21.0 (Range: 1.0-50.0)
+2025-04-04T19:36:11.381395-0400 | INFO | Tumor epilepsy: Age: Group 2 - Median: 23.5 (Range: 17.0-37.0)
+2025-04-04T19:36:11.383416-0400 | INFO | t-test for presentation_1_age: p-value=0.5588
+2025-04-04T19:36:11.387356-0400 | INFO | Initial symptom: tumor_size: Group 1 - Mean: 2.66 (SD: 1.74)
+2025-04-04T19:36:11.387515-0400 | INFO | Initial symptom: tumor_size: Group 2 - Mean: 3.84 (SD: 2.24)
+2025-04-04T19:36:11.389564-0400 | INFO | t-test for tumor_size: p-value=0.1756
+2025-04-04T19:36:11.393220-0400 | INFO | Tumor epilepsy: tumor_size: Group 1 - Mean: 2.85 (SD: 1.75)
+2025-04-04T19:36:11.393358-0400 | INFO | Tumor epilepsy: tumor_size: Group 2 - Mean: 3.68 (SD: 2.55)
+2025-04-04T19:36:11.395344-0400 | INFO | t-test for tumor_size: p-value=0.3847
+2025-04-04T19:36:11.398846-0400 | INFO | Initial symptom: tumor_mutational_burden: Group 1 - Mean: 4.04 (SD: 2.14)
+2025-04-04T19:36:11.398973-0400 | INFO | Initial symptom: tumor_mutational_burden: Group 2 - Mean: 5.18 (SD: 2.46)
+2025-04-04T19:36:11.401020-0400 | INFO | t-test for tumor_mutational_burden: p-value=0.3584
+2025-04-04T19:36:11.404975-0400 | INFO | Tumor epilepsy: tumor_mutational_burden: Group 1 - Mean: 4.08 (SD: 2.04)
+2025-04-04T19:36:11.405128-0400 | INFO | Tumor epilepsy: tumor_mutational_burden: Group 2 - Mean: 5.34 (SD: 2.81)
+2025-04-04T19:36:11.407317-0400 | INFO | t-test for tumor_mutational_burden: p-value=0.3461
+2025-04-04T19:36:11.407483-0400 | INFO | 
+=== CATEGORICAL VARIABLES ===
+2025-04-04T19:36:11.407581-0400 | INFO | Comparing sex distribution:
+2025-04-04T19:36:11.411093-0400 | INFO | sex_female: Group 1 - 11/25 (0.44)
+2025-04-04T19:36:11.411208-0400 | INFO | sex_female: Group 2 - 5/10 (0.50)
+2025-04-04T19:36:11.411616-0400 | INFO | Chi-Square test for sex_female: p-value=1.0000
+2025-04-04T19:36:11.414979-0400 | INFO | sex_female: Group 1 - 13/27 (0.48)
+2025-04-04T19:36:11.415097-0400 | INFO | sex_female: Group 2 - 3/8 (0.38)
+2025-04-04T19:36:11.416151-0400 | INFO | Fisher's Exact Test for sex_female: p-value=0.7003
+2025-04-04T19:36:11.416277-0400 | INFO | 
+=== TUMOR LOCATIONS ===
+2025-04-04T19:36:11.416367-0400 | INFO | Analyzing tumor_frontal:
+2025-04-04T19:36:11.420423-0400 | INFO | tumor_frontal: Group 1 - 3/25 (0.12)
+2025-04-04T19:36:11.420581-0400 | INFO | tumor_frontal: Group 2 - 5/10 (0.50)
+2025-04-04T19:36:11.421195-0400 | INFO | Fisher's Exact Test for tumor_frontal: p-value=0.0274
+2025-04-04T19:36:11.424872-0400 | INFO | tumor_frontal: Group 1 - 3/27 (0.11)
+2025-04-04T19:36:11.425003-0400 | INFO | tumor_frontal: Group 2 - 5/8 (0.62)
+2025-04-04T19:36:11.425586-0400 | INFO | Fisher's Exact Test for tumor_frontal: p-value=0.0074
+2025-04-04T19:36:11.425724-0400 | INFO | Analyzing tumor_temp:
+2025-04-04T19:36:11.429160-0400 | INFO | tumor_temp: Group 1 - 14/25 (0.56)
+2025-04-04T19:36:11.429282-0400 | INFO | tumor_temp: Group 2 - 4/10 (0.40)
+2025-04-04T19:36:11.430260-0400 | INFO | Fisher's Exact Test for tumor_temp: p-value=0.4705
+2025-04-04T19:36:11.433785-0400 | INFO | tumor_temp: Group 1 - 15/27 (0.56)
+2025-04-04T19:36:11.433929-0400 | INFO | tumor_temp: Group 2 - 3/8 (0.38)
+2025-04-04T19:36:11.435038-0400 | INFO | Fisher's Exact Test for tumor_temp: p-value=0.4430
+2025-04-04T19:36:11.435184-0400 | INFO | Analyzing tumor_parietal:
+2025-04-04T19:36:11.438646-0400 | INFO | tumor_parietal: Group 1 - 7/25 (0.28)
+2025-04-04T19:36:11.438762-0400 | INFO | tumor_parietal: Group 2 - 1/10 (0.10)
+2025-04-04T19:36:11.439673-0400 | INFO | Fisher's Exact Test for tumor_parietal: p-value=0.3905
+2025-04-04T19:36:11.443301-0400 | INFO | tumor_parietal: Group 1 - 8/27 (0.30)
+2025-04-04T19:36:11.443427-0400 | INFO | tumor_parietal: Group 2 - 0/8 (0.00)
+2025-04-04T19:36:11.444350-0400 | INFO | Fisher's Exact Test for tumor_parietal: p-value=0.1539
+2025-04-04T19:36:11.444469-0400 | INFO | Analyzing tumor_occipital:
+2025-04-04T19:36:11.447745-0400 | INFO | tumor_occipital: Group 1 - 5/25 (0.20)
+2025-04-04T19:36:11.447852-0400 | INFO | tumor_occipital: Group 2 - 0/10 (0.00)
+2025-04-04T19:36:11.448750-0400 | INFO | Fisher's Exact Test for tumor_occipital: p-value=0.2915
+2025-04-04T19:36:11.452232-0400 | INFO | tumor_occipital: Group 1 - 5/27 (0.19)
+2025-04-04T19:36:11.452386-0400 | INFO | tumor_occipital: Group 2 - 0/8 (0.00)
+2025-04-04T19:36:11.453337-0400 | INFO | Fisher's Exact Test for tumor_occipital: p-value=0.3152
+2025-04-04T19:36:11.453460-0400 | INFO | Analyzing tumor_insula:
+2025-04-04T19:36:11.457054-0400 | INFO | tumor_insula: Group 1 - 2/25 (0.08)
+2025-04-04T19:36:11.457172-0400 | INFO | tumor_insula: Group 2 - 2/10 (0.20)
+2025-04-04T19:36:11.458095-0400 | INFO | Fisher's Exact Test for tumor_insula: p-value=0.5607
+2025-04-04T19:36:11.461454-0400 | INFO | tumor_insula: Group 1 - 2/27 (0.07)
+2025-04-04T19:36:11.461569-0400 | INFO | tumor_insula: Group 2 - 2/8 (0.25)
+2025-04-04T19:36:11.462138-0400 | INFO | Fisher's Exact Test for tumor_insula: p-value=0.2179
+2025-04-04T19:36:11.462253-0400 | INFO | Analyzing tumor_subcort:
+2025-04-04T19:36:11.465406-0400 | INFO | tumor_subcort: Group 1 - 1/25 (0.04)
+2025-04-04T19:36:11.465517-0400 | INFO | tumor_subcort: Group 2 - 2/10 (0.20)
+2025-04-04T19:36:11.466244-0400 | INFO | Fisher's Exact Test for tumor_subcort: p-value=0.1902
+2025-04-04T19:36:11.469812-0400 | INFO | tumor_subcort: Group 1 - 2/27 (0.07)
+2025-04-04T19:36:11.469950-0400 | INFO | tumor_subcort: Group 2 - 1/8 (0.12)
+2025-04-04T19:36:11.470525-0400 | INFO | Fisher's Exact Test for tumor_subcort: p-value=0.5531
+2025-04-04T19:36:11.470644-0400 | INFO | 
+=== TUMOR FEATURES ===
+2025-04-04T19:36:11.470730-0400 | INFO | Analyzing mut_BRAF_V600E:
+2025-04-04T19:36:11.474214-0400 | INFO | mut_BRAF_V600E: Group 1 - 21/23 (0.91)
+2025-04-04T19:36:11.474333-0400 | INFO | mut_BRAF_V600E: Group 2 - 5/10 (0.50)
+2025-04-04T19:36:11.475095-0400 | INFO | Fisher's Exact Test for mut_BRAF_V600E: p-value=0.0161
+2025-04-04T19:36:11.478539-0400 | INFO | mut_BRAF_V600E: Group 1 - 22/25 (0.88)
+2025-04-04T19:36:11.478641-0400 | INFO | mut_BRAF_V600E: Group 2 - 4/8 (0.50)
+2025-04-04T19:36:11.479402-0400 | INFO | Fisher's Exact Test for mut_BRAF_V600E: p-value=0.0418
+2025-04-04T19:36:11.479512-0400 | INFO | Analyzing mut_CDKN2AB:
+2025-04-04T19:36:11.482736-0400 | INFO | mut_CDKN2AB: Group 1 - 12/18 (0.67)
+2025-04-04T19:36:11.482839-0400 | INFO | mut_CDKN2AB: Group 2 - 2/7 (0.29)
+2025-04-04T19:36:11.483966-0400 | INFO | Fisher's Exact Test for mut_CDKN2AB: p-value=0.1775
+2025-04-04T19:36:11.488392-0400 | INFO | mut_CDKN2AB: Group 1 - 13/20 (0.65)
+2025-04-04T19:36:11.488518-0400 | INFO | mut_CDKN2AB: Group 2 - 1/5 (0.20)
+2025-04-04T19:36:11.489282-0400 | INFO | Fisher's Exact Test for mut_CDKN2AB: p-value=0.1333
+2025-04-04T19:36:11.489389-0400 | INFO | Analyzing mut_TERTp:
+2025-04-04T19:36:11.493142-0400 | INFO | mut_TERTp: Group 1 - 3/12 (0.25)
+2025-04-04T19:36:11.493246-0400 | INFO | mut_TERTp: Group 2 - 1/7 (0.14)
+2025-04-04T19:36:11.493673-0400 | INFO | Fisher's Exact Test for mut_TERTp: p-value=1.0000
+2025-04-04T19:36:11.496827-0400 | INFO | mut_TERTp: Group 1 - 3/13 (0.23)
+2025-04-04T19:36:11.496926-0400 | INFO | mut_TERTp: Group 2 - 1/6 (0.17)
+2025-04-04T19:36:11.497243-0400 | INFO | Fisher's Exact Test for mut_TERTp: p-value=1.0000
+2025-04-04T19:36:11.497343-0400 | INFO | 
+=== TABLE 2: SEIZURE OUTCOMES ===
+2025-04-04T19:36:11.497415-0400 | INFO | 
+=== OUTCOME AFTER FIRST RESECTION (INITIAL SEIZURE) ===
+2025-04-04T19:36:11.499375-0400 | INFO | Seizure free after first resection: 17/24 (0.71)
+2025-04-04T19:36:11.499472-0400 | INFO | Not seizure free after first resection: 7/24 (0.29)
+2025-04-04T19:36:11.499544-0400 | INFO | 
+Factors associated with seizure freedom after first resection (initial seizure patients):
+2025-04-04T19:36:11.499610-0400 | INFO | Analyzing sex_female:
+2025-04-04T19:36:11.502619-0400 | INFO | sex_female: Group 1 - 7/17 (0.41)
+2025-04-04T19:36:11.502782-0400 | INFO | sex_female: Group 2 - 3/7 (0.43)
+2025-04-04T19:36:11.503232-0400 | INFO | Fisher's Exact Test for sex_female: p-value=1.0000
+2025-04-04T19:36:11.503369-0400 | INFO | Analyzing tumor_left:
+2025-04-04T19:36:11.505966-0400 | INFO | tumor_left: Group 1 - 8/17 (0.47)
+2025-04-04T19:36:11.506064-0400 | INFO | tumor_left: Group 2 - 6/7 (0.86)
+2025-04-04T19:36:11.506952-0400 | INFO | Fisher's Exact Test for tumor_left: p-value=0.1718
+2025-04-04T19:36:11.507055-0400 | INFO | Analyzing tumor_frontal:
+2025-04-04T19:36:11.509376-0400 | INFO | tumor_frontal: Group 1 - 2/17 (0.12)
+2025-04-04T19:36:11.509471-0400 | INFO | tumor_frontal: Group 2 - 1/7 (0.14)
+2025-04-04T19:36:11.509829-0400 | INFO | Fisher's Exact Test for tumor_frontal: p-value=1.0000
+2025-04-04T19:36:11.509934-0400 | INFO | Analyzing tumor_temp:
+2025-04-04T19:36:11.512541-0400 | INFO | tumor_temp: Group 1 - 9/17 (0.53)
+2025-04-04T19:36:11.531845-0400 | INFO | tumor_temp: Group 2 - 4/7 (0.57)
+2025-04-04T19:36:11.532402-0400 | INFO | Fisher's Exact Test for tumor_temp: p-value=1.0000
+2025-04-04T19:36:11.532570-0400 | INFO | Analyzing tumor_parietal:
+2025-04-04T19:36:11.535827-0400 | INFO | tumor_parietal: Group 1 - 7/17 (0.41)
+2025-04-04T19:36:11.535963-0400 | INFO | tumor_parietal: Group 2 - 0/7 (0.00)
+2025-04-04T19:36:11.537152-0400 | INFO | Fisher's Exact Test for tumor_parietal: p-value=0.0648
+2025-04-04T19:36:11.537294-0400 | INFO | Analyzing tumor_occipital:
+2025-04-04T19:36:11.540020-0400 | INFO | tumor_occipital: Group 1 - 4/17 (0.24)
+2025-04-04T19:36:11.540144-0400 | INFO | tumor_occipital: Group 2 - 1/7 (0.14)
+2025-04-04T19:36:11.540522-0400 | INFO | Fisher's Exact Test for tumor_occipital: p-value=1.0000
+2025-04-04T19:36:11.540638-0400 | INFO | Analyzing tumor_insula:
+2025-04-04T19:36:11.543258-0400 | INFO | tumor_insula: Group 1 - 1/17 (0.06)
+2025-04-04T19:36:11.543388-0400 | INFO | tumor_insula: Group 2 - 1/7 (0.14)
+2025-04-04T19:36:11.543975-0400 | INFO | Fisher's Exact Test for tumor_insula: p-value=0.5072
+2025-04-04T19:36:11.544096-0400 | INFO | Analyzing tumor_subcort:
+2025-04-04T19:36:11.546730-0400 | INFO | tumor_subcort: Group 1 - 0/17 (0.00)
+2025-04-04T19:36:11.546843-0400 | INFO | tumor_subcort: Group 2 - 1/7 (0.14)
+2025-04-04T19:36:11.547411-0400 | INFO | Fisher's Exact Test for tumor_subcort: p-value=0.2917
+2025-04-04T19:36:11.547526-0400 | INFO | Analyzing mut_BRAF_V600E:
+2025-04-04T19:36:11.550324-0400 | INFO | mut_BRAF_V600E: Group 1 - 15/15 (1.00)
+2025-04-04T19:36:11.550468-0400 | INFO | mut_BRAF_V600E: Group 2 - 5/7 (0.71)
+2025-04-04T19:36:11.551259-0400 | INFO | Fisher's Exact Test for mut_BRAF_V600E: p-value=0.0909
+2025-04-04T19:36:11.551470-0400 | INFO | Analyzing mut_CDKN2AB:
+2025-04-04T19:36:11.554473-0400 | INFO | mut_CDKN2AB: Group 1 - 6/11 (0.55)
+2025-04-04T19:36:11.554614-0400 | INFO | mut_CDKN2AB: Group 2 - 6/7 (0.86)
+2025-04-04T19:36:11.555502-0400 | INFO | Fisher's Exact Test for mut_CDKN2AB: p-value=0.3156
+2025-04-04T19:36:11.555642-0400 | INFO | Analyzing mut_TERTp:
+2025-04-04T19:36:11.558478-0400 | INFO | mut_TERTp: Group 1 - 1/7 (0.14)
+2025-04-04T19:36:11.558613-0400 | INFO | mut_TERTp: Group 2 - 2/5 (0.40)
+2025-04-04T19:36:11.559447-0400 | INFO | Fisher's Exact Test for mut_TERTp: p-value=0.5227
+2025-04-04T19:36:11.559563-0400 | INFO | Analyzing tumor_grade_first:
+2025-04-04T19:36:11.562540-0400 | INFO | tumor_grade_first: Group 1 - 0/0 (nan)
+2025-04-04T19:36:11.562655-0400 | INFO | tumor_grade_first: Group 2 - 0/0 (nan)
+2025-04-04T19:36:11.562788-0400 | INFO | Fisher's Exact Test for tumor_grade_first: p-value=1.0000
+2025-04-04T19:36:11.562892-0400 | INFO | Analyzing resection_1_gross_total:
+2025-04-04T19:36:11.565523-0400 | INFO | resection_1_gross_total: Group 1 - 16/17 (0.94)
+2025-04-04T19:36:11.565662-0400 | INFO | resection_1_gross_total: Group 2 - 5/7 (0.71)
+2025-04-04T19:36:11.566527-0400 | INFO | Fisher's Exact Test for resection_1_gross_total: p-value=0.1937
+2025-04-04T19:36:11.566644-0400 | INFO | Analyzing add_chemo:
+2025-04-04T19:36:11.570005-0400 | INFO | add_chemo: Group 1 - 3/17 (0.18)
+2025-04-04T19:36:11.570166-0400 | INFO | add_chemo: Group 2 - 4/7 (0.57)
+2025-04-04T19:36:11.571110-0400 | INFO | Fisher's Exact Test for add_chemo: p-value=0.1336
+2025-04-04T19:36:11.571230-0400 | INFO | Analyzing add_radiation:
+2025-04-04T19:36:11.573818-0400 | INFO | add_radiation: Group 1 - 4/17 (0.24)
+2025-04-04T19:36:11.573925-0400 | INFO | add_radiation: Group 2 - 4/7 (0.57)
+2025-04-04T19:36:11.574740-0400 | INFO | Fisher's Exact Test for add_radiation: p-value=0.1670
+2025-04-04T19:36:11.574855-0400 | INFO | Analyzing presentation_1_age:
+2025-04-04T19:36:11.577347-0400 | INFO |  Age: Group 1 - Median: 21.0 (Range: 1.0-41.0)
+2025-04-04T19:36:11.577454-0400 | INFO |  Age: Group 2 - Median: 36.0 (Range: 9.0-44.0)
+2025-04-04T19:36:11.579411-0400 | INFO | t-test for presentation_1_age: p-value=0.0942
+2025-04-04T19:36:11.579528-0400 | INFO | Analyzing tumor_size:
+2025-04-04T19:36:11.582043-0400 | INFO |  tumor_size: Group 1 - Mean: 2.09 (SD: 1.21)
+2025-04-04T19:36:11.582150-0400 | INFO |  tumor_size: Group 2 - Mean: 4.23 (SD: 2.18)
+2025-04-04T19:36:11.584043-0400 | INFO | t-test for tumor_size: p-value=0.0291
+2025-04-04T19:36:11.584175-0400 | INFO | Analyzing tumor_mutational_burden:
+2025-04-04T19:36:11.586993-0400 | INFO |  tumor_mutational_burden: Group 1 - Mean: 3.98 (SD: 2.28)
+2025-04-04T19:36:11.587137-0400 | INFO |  tumor_mutational_burden: Group 2 - Mean: 4.14 (SD: 2.21)
+2025-04-04T19:36:11.589160-0400 | INFO | t-test for tumor_mutational_burden: p-value=0.9126
+2025-04-04T19:36:11.589293-0400 | INFO | 
+=== OUTCOME AFTER FIRST RESECTION (ANY SEIZURE) ===
+2025-04-04T19:36:11.591476-0400 | INFO | Seizure free after first resection: 17/26 (0.65)
+2025-04-04T19:36:11.591584-0400 | INFO | Not seizure free after first resection: 9/26 (0.35)
+2025-04-04T19:36:11.591667-0400 | INFO | 
+Factors associated with seizure freedom after first resection (all seizure patients):
+2025-04-04T19:36:11.591744-0400 | INFO | Analyzing sex_female:
+2025-04-04T19:36:11.594247-0400 | INFO | sex_female: Group 1 - 7/17 (0.41)
+2025-04-04T19:36:11.594353-0400 | INFO | sex_female: Group 2 - 5/9 (0.56)
+2025-04-04T19:36:11.595286-0400 | INFO | Fisher's Exact Test for sex_female: p-value=0.6828
+2025-04-04T19:36:11.595398-0400 | INFO | Analyzing tumor_left:
+2025-04-04T19:36:11.597822-0400 | INFO | tumor_left: Group 1 - 8/17 (0.47)
+2025-04-04T19:36:11.597920-0400 | INFO | tumor_left: Group 2 - 8/9 (0.89)
+2025-04-04T19:36:11.598757-0400 | INFO | Fisher's Exact Test for tumor_left: p-value=0.0873
+2025-04-04T19:36:11.598860-0400 | INFO | Analyzing tumor_frontal:
+2025-04-04T19:36:11.601725-0400 | INFO | tumor_frontal: Group 1 - 2/17 (0.12)
+2025-04-04T19:36:11.601929-0400 | INFO | tumor_frontal: Group 2 - 1/9 (0.11)
+2025-04-04T19:36:11.602531-0400 | INFO | Fisher's Exact Test for tumor_frontal: p-value=1.0000
+2025-04-04T19:36:11.602635-0400 | INFO | Analyzing tumor_temp:
+2025-04-04T19:36:11.605204-0400 | INFO | tumor_temp: Group 1 - 9/17 (0.53)
+2025-04-04T19:36:11.605322-0400 | INFO | tumor_temp: Group 2 - 5/9 (0.56)
+2025-04-04T19:36:11.605656-0400 | INFO | Fisher's Exact Test for tumor_temp: p-value=1.0000
+2025-04-04T19:36:11.605759-0400 | INFO | Analyzing tumor_parietal:
+2025-04-04T19:36:11.608207-0400 | INFO | tumor_parietal: Group 1 - 7/17 (0.41)
+2025-04-04T19:36:11.608318-0400 | INFO | tumor_parietal: Group 2 - 1/9 (0.11)
+2025-04-04T19:36:11.609225-0400 | INFO | Fisher's Exact Test for tumor_parietal: p-value=0.1902
+2025-04-04T19:36:11.609339-0400 | INFO | Analyzing tumor_occipital:
+2025-04-04T19:36:11.611851-0400 | INFO | tumor_occipital: Group 1 - 4/17 (0.24)
+2025-04-04T19:36:11.611953-0400 | INFO | tumor_occipital: Group 2 - 1/9 (0.11)
+2025-04-04T19:36:11.612822-0400 | INFO | Fisher's Exact Test for tumor_occipital: p-value=0.6279
+2025-04-04T19:36:11.612933-0400 | INFO | Analyzing tumor_insula:
+2025-04-04T19:36:11.615279-0400 | INFO | tumor_insula: Group 1 - 1/17 (0.06)
+2025-04-04T19:36:11.615378-0400 | INFO | tumor_insula: Group 2 - 1/9 (0.11)
+2025-04-04T19:36:11.615791-0400 | INFO | Fisher's Exact Test for tumor_insula: p-value=1.0000
+2025-04-04T19:36:11.615890-0400 | INFO | Analyzing tumor_subcort:
+2025-04-04T19:36:11.618546-0400 | INFO | tumor_subcort: Group 1 - 0/17 (0.00)
+2025-04-04T19:36:11.618702-0400 | INFO | tumor_subcort: Group 2 - 2/9 (0.22)
+2025-04-04T19:36:11.619635-0400 | INFO | Fisher's Exact Test for tumor_subcort: p-value=0.1108
+2025-04-04T19:36:11.619744-0400 | INFO | Analyzing mut_BRAF_V600E:
+2025-04-04T19:36:11.623135-0400 | INFO | mut_BRAF_V600E: Group 1 - 15/15 (1.00)
+2025-04-04T19:36:11.623250-0400 | INFO | mut_BRAF_V600E: Group 2 - 6/9 (0.67)
+2025-04-04T19:36:11.623972-0400 | INFO | Fisher's Exact Test for mut_BRAF_V600E: p-value=0.0415
+2025-04-04T19:36:11.624078-0400 | INFO | Analyzing mut_CDKN2AB:
+2025-04-04T19:36:11.626515-0400 | INFO | mut_CDKN2AB: Group 1 - 6/11 (0.55)
+2025-04-04T19:36:11.626611-0400 | INFO | mut_CDKN2AB: Group 2 - 7/9 (0.78)
+2025-04-04T19:36:11.627382-0400 | INFO | Fisher's Exact Test for mut_CDKN2AB: p-value=0.3742
+2025-04-04T19:36:11.627487-0400 | INFO | Analyzing mut_TERTp:
+2025-04-04T19:36:11.630128-0400 | INFO | mut_TERTp: Group 1 - 1/7 (0.14)
+2025-04-04T19:36:11.630228-0400 | INFO | mut_TERTp: Group 2 - 2/6 (0.33)
+2025-04-04T19:36:11.630966-0400 | INFO | Fisher's Exact Test for mut_TERTp: p-value=0.5594
+2025-04-04T19:36:11.631070-0400 | INFO | Analyzing tumor_grade_first:
+2025-04-04T19:36:11.633588-0400 | INFO | tumor_grade_first: Group 1 - 0/0 (nan)
+2025-04-04T19:36:11.633810-0400 | INFO | tumor_grade_first: Group 2 - 0/0 (nan)
+2025-04-04T19:36:11.634051-0400 | INFO | Fisher's Exact Test for tumor_grade_first: p-value=1.0000
+2025-04-04T19:36:11.634299-0400 | INFO | Analyzing resection_1_gross_total:
+2025-04-04T19:36:11.638731-0400 | INFO | resection_1_gross_total: Group 1 - 16/17 (0.94)
+2025-04-04T19:36:11.638879-0400 | INFO | resection_1_gross_total: Group 2 - 6/9 (0.67)
+2025-04-04T19:36:11.639821-0400 | INFO | Fisher's Exact Test for resection_1_gross_total: p-value=0.1039
+2025-04-04T19:36:11.639985-0400 | INFO | Analyzing add_chemo:
+2025-04-04T19:36:11.642902-0400 | INFO | add_chemo: Group 1 - 3/17 (0.18)
+2025-04-04T19:36:11.643033-0400 | INFO | add_chemo: Group 2 - 4/9 (0.44)
+2025-04-04T19:36:11.643887-0400 | INFO | Fisher's Exact Test for add_chemo: p-value=0.1881
+2025-04-04T19:36:11.644008-0400 | INFO | Analyzing add_radiation:
+2025-04-04T19:36:11.646582-0400 | INFO | add_radiation: Group 1 - 4/17 (0.24)
+2025-04-04T19:36:11.646689-0400 | INFO | add_radiation: Group 2 - 4/9 (0.44)
+2025-04-04T19:36:11.647595-0400 | INFO | Fisher's Exact Test for add_radiation: p-value=0.3821
+2025-04-04T19:36:11.647711-0400 | INFO | Analyzing presentation_1_age:
+2025-04-04T19:36:11.650250-0400 | INFO |  Age: Group 1 - Median: 21.0 (Range: 1.0-41.0)
+2025-04-04T19:36:11.650371-0400 | INFO |  Age: Group 2 - Median: 37.0 (Range: 9.0-50.0)
+2025-04-04T19:36:11.652573-0400 | INFO | t-test for presentation_1_age: p-value=0.0168
+2025-04-04T19:36:11.652765-0400 | INFO | Analyzing tumor_size:
+2025-04-04T19:36:11.655837-0400 | INFO |  tumor_size: Group 1 - Mean: 2.09 (SD: 1.21)
+2025-04-04T19:36:11.655982-0400 | INFO |  tumor_size: Group 2 - Mean: 4.25 (SD: 1.81)
+2025-04-04T19:36:11.695403-0400 | INFO | t-test for tumor_size: p-value=0.0096
+2025-04-04T19:36:11.695597-0400 | INFO | Analyzing tumor_mutational_burden:
+2025-04-04T19:36:11.698715-0400 | INFO |  tumor_mutational_burden: Group 1 - Mean: 3.98 (SD: 2.28)
+2025-04-04T19:36:11.698878-0400 | INFO |  tumor_mutational_burden: Group 2 - Mean: 4.22 (SD: 1.92)
+2025-04-04T19:36:11.700965-0400 | INFO | t-test for tumor_mutational_burden: p-value=0.8495
+2025-04-04T19:36:11.701153-0400 | INFO | 
+=== SURVIVAL ANALYSIS ===
+2025-04-04T19:36:12.273274-0400 | INFO | Saved figure to /Users/nishant/Dropbox/Sinha/Lab/Publications/2025/DanPXA/pxa/figures/survival_analysis_tre_vs_no_tre.png
+2025-04-04T19:36:12.288650-0400 | INFO | Log-rank test p-value: 0.0205
+2025-04-04T19:36:12.309448-0400 | INFO | Analysis complete!
+2025-04-04T19:37:03.740388-0400 | INFO | Output directory set to: /Users/nishant/Dropbox/Sinha/Lab/Publications/2025/DanPXA/pxa/figures
+2025-04-04T19:37:03.740718-0400 | INFO | Loading data from /Users/nishant/Dropbox/Sinha/Lab/Publications/2025/DanPXA/pxa/data/pxa_data.csv
+2025-04-04T19:37:03.749742-0400 | INFO | Loaded data with 35 patients
+2025-04-04T19:37:03.753426-0400 | INFO | Created groups: initial seizure (25 patients), initial other (10 patients)
+2025-04-04T19:37:03.753570-0400 | INFO | Created groups: tumor epilepsy (27 patients), no tumor epilepsy (8 patients)
+2025-04-04T19:37:03.753670-0400 | INFO | === TABLE 1: CLINICAL CHARACTERISTICS ===
+2025-04-04T19:37:03.753759-0400 | INFO | Total patients: 35
+2025-04-04T19:37:03.753846-0400 | INFO | Initial seizure: 25 (0.71)
+2025-04-04T19:37:03.753927-0400 | INFO | Initial other symptoms: 10 (0.29)
+2025-04-04T19:37:03.754006-0400 | INFO | Tumor epilepsy: 27 (0.77)
+2025-04-04T19:37:03.754084-0400 | INFO | No tumor epilepsy: 8 (0.23)
+2025-04-04T19:37:03.754160-0400 | INFO | 
+=== CONTINUOUS VARIABLES ===
+2025-04-04T19:37:03.758822-0400 | INFO | Initial symptom: Age: Group 1 - Median: 21.0 (Range: 1.0-44.0)
+2025-04-04T19:37:03.758987-0400 | INFO | Initial symptom: Age: Group 2 - Median: 27.5 (Range: 17.0-50.0)
+2025-04-04T19:37:03.761333-0400 | INFO | t-test for presentation_1_age: p-value=0.0696
+2025-04-04T19:37:03.764806-0400 | INFO | Tumor epilepsy: Age: Group 1 - Median: 21.0 (Range: 1.0-50.0)
+2025-04-04T19:37:03.764922-0400 | INFO | Tumor epilepsy: Age: Group 2 - Median: 23.5 (Range: 17.0-37.0)
+2025-04-04T19:37:03.766885-0400 | INFO | t-test for presentation_1_age: p-value=0.5588
+2025-04-04T19:37:03.770713-0400 | INFO | Initial symptom: tumor_size: Group 1 - Mean: 2.66 (SD: 1.74)
+2025-04-04T19:37:03.770871-0400 | INFO | Initial symptom: tumor_size: Group 2 - Mean: 3.84 (SD: 2.24)
+2025-04-04T19:37:03.772876-0400 | INFO | t-test for tumor_size: p-value=0.1756
+2025-04-04T19:37:03.814748-0400 | INFO | Tumor epilepsy: tumor_size: Group 1 - Mean: 2.85 (SD: 1.75)
+2025-04-04T19:37:03.814933-0400 | INFO | Tumor epilepsy: tumor_size: Group 2 - Mean: 3.68 (SD: 2.55)
+2025-04-04T19:37:03.817206-0400 | INFO | t-test for tumor_size: p-value=0.3847
+2025-04-04T19:37:03.820920-0400 | INFO | Initial symptom: tumor_mutational_burden: Group 1 - Mean: 4.04 (SD: 2.14)
+2025-04-04T19:37:03.821124-0400 | INFO | Initial symptom: tumor_mutational_burden: Group 2 - Mean: 5.18 (SD: 2.46)
+2025-04-04T19:37:03.823219-0400 | INFO | t-test for tumor_mutational_burden: p-value=0.3584
+2025-04-04T19:37:03.831660-0400 | INFO | Tumor epilepsy: tumor_mutational_burden: Group 1 - Mean: 4.08 (SD: 2.04)
+2025-04-04T19:37:03.831837-0400 | INFO | Tumor epilepsy: tumor_mutational_burden: Group 2 - Mean: 5.34 (SD: 2.81)
+2025-04-04T19:37:03.833909-0400 | INFO | t-test for tumor_mutational_burden: p-value=0.3461
+2025-04-04T19:37:03.834053-0400 | INFO | 
+=== CATEGORICAL VARIABLES ===
+2025-04-04T19:37:03.834150-0400 | INFO | Comparing sex distribution:
+2025-04-04T19:37:03.873544-0400 | INFO | sex_female: Group 1 - 11/25 (0.44)
+2025-04-04T19:37:03.873735-0400 | INFO | sex_female: Group 2 - 5/10 (0.50)
+2025-04-04T19:37:03.874269-0400 | INFO | Chi-Square test for sex_female: p-value=1.0000
+2025-04-04T19:37:03.878573-0400 | INFO | sex_female: Group 1 - 13/27 (0.48)
+2025-04-04T19:37:03.878711-0400 | INFO | sex_female: Group 2 - 3/8 (0.38)
+2025-04-04T19:37:03.879954-0400 | INFO | Fisher's Exact Test for sex_female: p-value=0.7003
+2025-04-04T19:37:03.880101-0400 | INFO | 
+=== TUMOR LOCATIONS ===
+2025-04-04T19:37:03.880222-0400 | INFO | Analyzing tumor_frontal:
+2025-04-04T19:37:03.884056-0400 | INFO | tumor_frontal: Group 1 - 3/25 (0.12)
+2025-04-04T19:37:03.884177-0400 | INFO | tumor_frontal: Group 2 - 5/10 (0.50)
+2025-04-04T19:37:03.884827-0400 | INFO | Fisher's Exact Test for tumor_frontal: p-value=0.0274
+2025-04-04T19:37:03.888428-0400 | INFO | tumor_frontal: Group 1 - 3/27 (0.11)
+2025-04-04T19:37:03.888570-0400 | INFO | tumor_frontal: Group 2 - 5/8 (0.62)
+2025-04-04T19:37:03.889178-0400 | INFO | Fisher's Exact Test for tumor_frontal: p-value=0.0074
+2025-04-04T19:37:03.889305-0400 | INFO | Analyzing tumor_temp:
+2025-04-04T19:37:03.892981-0400 | INFO | tumor_temp: Group 1 - 14/25 (0.56)
+2025-04-04T19:37:03.893109-0400 | INFO | tumor_temp: Group 2 - 4/10 (0.40)
+2025-04-04T19:37:03.894059-0400 | INFO | Fisher's Exact Test for tumor_temp: p-value=0.4705
+2025-04-04T19:37:03.897460-0400 | INFO | tumor_temp: Group 1 - 15/27 (0.56)
+2025-04-04T19:37:03.897576-0400 | INFO | tumor_temp: Group 2 - 3/8 (0.38)
+2025-04-04T19:37:03.898522-0400 | INFO | Fisher's Exact Test for tumor_temp: p-value=0.4430
+2025-04-04T19:37:03.898641-0400 | INFO | Analyzing tumor_parietal:
+2025-04-04T19:37:03.901979-0400 | INFO | tumor_parietal: Group 1 - 7/25 (0.28)
+2025-04-04T19:37:03.902088-0400 | INFO | tumor_parietal: Group 2 - 1/10 (0.10)
+2025-04-04T19:37:03.903016-0400 | INFO | Fisher's Exact Test for tumor_parietal: p-value=0.3905
+2025-04-04T19:37:03.906553-0400 | INFO | tumor_parietal: Group 1 - 8/27 (0.30)
+2025-04-04T19:37:03.906684-0400 | INFO | tumor_parietal: Group 2 - 0/8 (0.00)
+2025-04-04T19:37:03.907724-0400 | INFO | Fisher's Exact Test for tumor_parietal: p-value=0.1539
+2025-04-04T19:37:03.907914-0400 | INFO | Analyzing tumor_occipital:
+2025-04-04T19:37:03.911523-0400 | INFO | tumor_occipital: Group 1 - 5/25 (0.20)
+2025-04-04T19:37:03.911642-0400 | INFO | tumor_occipital: Group 2 - 0/10 (0.00)
+2025-04-04T19:37:03.912585-0400 | INFO | Fisher's Exact Test for tumor_occipital: p-value=0.2915
+2025-04-04T19:37:03.915974-0400 | INFO | tumor_occipital: Group 1 - 5/27 (0.19)
+2025-04-04T19:37:03.916085-0400 | INFO | tumor_occipital: Group 2 - 0/8 (0.00)
+2025-04-04T19:37:03.917008-0400 | INFO | Fisher's Exact Test for tumor_occipital: p-value=0.3152
+2025-04-04T19:37:03.917129-0400 | INFO | Analyzing tumor_insula:
+2025-04-04T19:37:03.920484-0400 | INFO | tumor_insula: Group 1 - 2/25 (0.08)
+2025-04-04T19:37:03.920616-0400 | INFO | tumor_insula: Group 2 - 2/10 (0.20)
+2025-04-04T19:37:03.921578-0400 | INFO | Fisher's Exact Test for tumor_insula: p-value=0.5607
+2025-04-04T19:37:03.925300-0400 | INFO | tumor_insula: Group 1 - 2/27 (0.07)
+2025-04-04T19:37:03.925431-0400 | INFO | tumor_insula: Group 2 - 2/8 (0.25)
+2025-04-04T19:37:03.926034-0400 | INFO | Fisher's Exact Test for tumor_insula: p-value=0.2179
+2025-04-04T19:37:03.926160-0400 | INFO | Analyzing tumor_subcort:
+2025-04-04T19:37:03.929613-0400 | INFO | tumor_subcort: Group 1 - 1/25 (0.04)
+2025-04-04T19:37:03.929728-0400 | INFO | tumor_subcort: Group 2 - 2/10 (0.20)
+2025-04-04T19:37:03.930319-0400 | INFO | Fisher's Exact Test for tumor_subcort: p-value=0.1902
+2025-04-04T19:37:03.933707-0400 | INFO | tumor_subcort: Group 1 - 2/27 (0.07)
+2025-04-04T19:37:03.933818-0400 | INFO | tumor_subcort: Group 2 - 1/8 (0.12)
+2025-04-04T19:37:03.934379-0400 | INFO | Fisher's Exact Test for tumor_subcort: p-value=0.5531
+2025-04-04T19:37:03.934497-0400 | INFO | 
+=== TUMOR FEATURES ===
+2025-04-04T19:37:03.934588-0400 | INFO | Analyzing mut_BRAF_V600E:
+2025-04-04T19:37:03.938136-0400 | INFO | mut_BRAF_V600E: Group 1 - 21/23 (0.91)
+2025-04-04T19:37:03.938277-0400 | INFO | mut_BRAF_V600E: Group 2 - 5/10 (0.50)
+2025-04-04T19:37:03.939096-0400 | INFO | Fisher's Exact Test for mut_BRAF_V600E: p-value=0.0161
+2025-04-04T19:37:03.942816-0400 | INFO | mut_BRAF_V600E: Group 1 - 22/25 (0.88)
+2025-04-04T19:37:03.942946-0400 | INFO | mut_BRAF_V600E: Group 2 - 4/8 (0.50)
+2025-04-04T19:37:03.943774-0400 | INFO | Fisher's Exact Test for mut_BRAF_V600E: p-value=0.0418
+2025-04-04T19:37:03.943900-0400 | INFO | Analyzing mut_CDKN2AB:
+2025-04-04T19:37:03.947453-0400 | INFO | mut_CDKN2AB: Group 1 - 12/18 (0.67)
+2025-04-04T19:37:03.947574-0400 | INFO | mut_CDKN2AB: Group 2 - 2/7 (0.29)
+2025-04-04T19:37:03.948516-0400 | INFO | Fisher's Exact Test for mut_CDKN2AB: p-value=0.1775
+2025-04-04T19:37:03.952033-0400 | INFO | mut_CDKN2AB: Group 1 - 13/20 (0.65)
+2025-04-04T19:37:03.952143-0400 | INFO | mut_CDKN2AB: Group 2 - 1/5 (0.20)
+2025-04-04T19:37:03.952975-0400 | INFO | Fisher's Exact Test for mut_CDKN2AB: p-value=0.1333
+2025-04-04T19:37:03.953099-0400 | INFO | Analyzing mut_TERTp:
+2025-04-04T19:37:03.956560-0400 | INFO | mut_TERTp: Group 1 - 3/12 (0.25)
+2025-04-04T19:37:03.956683-0400 | INFO | mut_TERTp: Group 2 - 1/7 (0.14)
+2025-04-04T19:37:03.957066-0400 | INFO | Fisher's Exact Test for mut_TERTp: p-value=1.0000
+2025-04-04T19:37:03.960565-0400 | INFO | mut_TERTp: Group 1 - 3/13 (0.23)
+2025-04-04T19:37:03.960683-0400 | INFO | mut_TERTp: Group 2 - 1/6 (0.17)
+2025-04-04T19:37:03.961051-0400 | INFO | Fisher's Exact Test for mut_TERTp: p-value=1.0000
+2025-04-04T19:37:03.961167-0400 | INFO | 
+=== TABLE 2: SEIZURE OUTCOMES ===
+2025-04-04T19:37:03.961253-0400 | INFO | 
+=== OUTCOME AFTER FIRST RESECTION (INITIAL SEIZURE) ===
+2025-04-04T19:37:03.963321-0400 | INFO | Seizure free after first resection: 17/24 (0.71)
+2025-04-04T19:37:03.963424-0400 | INFO | Not seizure free after first resection: 7/24 (0.29)
+2025-04-04T19:37:03.963504-0400 | INFO | 
+Factors associated with seizure freedom after first resection (initial seizure patients):
+2025-04-04T19:37:03.963579-0400 | INFO | Analyzing sex_female:
+2025-04-04T19:37:03.965918-0400 | INFO | sex_female: Group 1 - 7/17 (0.41)
+2025-04-04T19:37:03.966014-0400 | INFO | sex_female: Group 2 - 3/7 (0.43)
+2025-04-04T19:37:03.966355-0400 | INFO | Fisher's Exact Test for sex_female: p-value=1.0000
+2025-04-04T19:37:03.966454-0400 | INFO | Analyzing tumor_left:
+2025-04-04T19:37:03.968897-0400 | INFO | tumor_left: Group 1 - 8/17 (0.47)
+2025-04-04T19:37:03.968991-0400 | INFO | tumor_left: Group 2 - 6/7 (0.86)
+2025-04-04T19:37:03.969940-0400 | INFO | Fisher's Exact Test for tumor_left: p-value=0.1718
+2025-04-04T19:37:03.970137-0400 | INFO | Analyzing tumor_frontal:
+2025-04-04T19:37:03.972960-0400 | INFO | tumor_frontal: Group 1 - 2/17 (0.12)
+2025-04-04T19:37:03.973071-0400 | INFO | tumor_frontal: Group 2 - 1/7 (0.14)
+2025-04-04T19:37:03.973405-0400 | INFO | Fisher's Exact Test for tumor_frontal: p-value=1.0000
+2025-04-04T19:37:03.973610-0400 | INFO | Analyzing tumor_temp:
+2025-04-04T19:37:03.976703-0400 | INFO | tumor_temp: Group 1 - 9/17 (0.53)
+2025-04-04T19:37:03.976811-0400 | INFO | tumor_temp: Group 2 - 4/7 (0.57)
+2025-04-04T19:37:03.977143-0400 | INFO | Fisher's Exact Test for tumor_temp: p-value=1.0000
+2025-04-04T19:37:03.977247-0400 | INFO | Analyzing tumor_parietal:
+2025-04-04T19:37:03.979600-0400 | INFO | tumor_parietal: Group 1 - 7/17 (0.41)
+2025-04-04T19:37:03.979696-0400 | INFO | tumor_parietal: Group 2 - 0/7 (0.00)
+2025-04-04T19:37:03.980501-0400 | INFO | Fisher's Exact Test for tumor_parietal: p-value=0.0648
+2025-04-04T19:37:03.980603-0400 | INFO | Analyzing tumor_occipital:
+2025-04-04T19:37:03.982872-0400 | INFO | tumor_occipital: Group 1 - 4/17 (0.24)
+2025-04-04T19:37:03.982966-0400 | INFO | tumor_occipital: Group 2 - 1/7 (0.14)
+2025-04-04T19:37:03.983283-0400 | INFO | Fisher's Exact Test for tumor_occipital: p-value=1.0000
+2025-04-04T19:37:03.983384-0400 | INFO | Analyzing tumor_insula:
+2025-04-04T19:37:03.985752-0400 | INFO | tumor_insula: Group 1 - 1/17 (0.06)
+2025-04-04T19:37:03.985849-0400 | INFO | tumor_insula: Group 2 - 1/7 (0.14)
+2025-04-04T19:37:03.986392-0400 | INFO | Fisher's Exact Test for tumor_insula: p-value=0.5072
+2025-04-04T19:37:03.986535-0400 | INFO | Analyzing tumor_subcort:
+2025-04-04T19:37:03.989396-0400 | INFO | tumor_subcort: Group 1 - 0/17 (0.00)
+2025-04-04T19:37:03.989508-0400 | INFO | tumor_subcort: Group 2 - 1/7 (0.14)
+2025-04-04T19:37:03.990022-0400 | INFO | Fisher's Exact Test for tumor_subcort: p-value=0.2917
+2025-04-04T19:37:03.990126-0400 | INFO | Analyzing mut_BRAF_V600E:
+2025-04-04T19:37:03.992921-0400 | INFO | mut_BRAF_V600E: Group 1 - 15/15 (1.00)
+2025-04-04T19:37:03.993026-0400 | INFO | mut_BRAF_V600E: Group 2 - 5/7 (0.71)
+2025-04-04T19:37:03.993708-0400 | INFO | Fisher's Exact Test for mut_BRAF_V600E: p-value=0.0909
+2025-04-04T19:37:03.993814-0400 | INFO | Analyzing mut_CDKN2AB:
+2025-04-04T19:37:03.996443-0400 | INFO | mut_CDKN2AB: Group 1 - 6/11 (0.55)
+2025-04-04T19:37:03.996542-0400 | INFO | mut_CDKN2AB: Group 2 - 6/7 (0.86)
+2025-04-04T19:37:03.997312-0400 | INFO | Fisher's Exact Test for mut_CDKN2AB: p-value=0.3156
+2025-04-04T19:37:03.997416-0400 | INFO | Analyzing mut_TERTp:
+2025-04-04T19:37:03.999853-0400 | INFO | mut_TERTp: Group 1 - 1/7 (0.14)
+2025-04-04T19:37:03.999948-0400 | INFO | mut_TERTp: Group 2 - 2/5 (0.40)
+2025-04-04T19:37:04.000782-0400 | INFO | Fisher's Exact Test for mut_TERTp: p-value=0.5227
+2025-04-04T19:37:04.000887-0400 | INFO | Analyzing tumor_grade_first:
+2025-04-04T19:37:04.003930-0400 | INFO | tumor_grade_first: Group 1 - 0/0 (nan)
+2025-04-04T19:37:04.004124-0400 | INFO | tumor_grade_first: Group 2 - 0/0 (nan)
+2025-04-04T19:37:04.004427-0400 | INFO | Fisher's Exact Test for tumor_grade_first: p-value=1.0000
+2025-04-04T19:37:04.004622-0400 | INFO | Analyzing resection_1_gross_total:
+2025-04-04T19:37:04.007276-0400 | INFO | resection_1_gross_total: Group 1 - 16/17 (0.94)
+2025-04-04T19:37:04.007453-0400 | INFO | resection_1_gross_total: Group 2 - 5/7 (0.71)
+2025-04-04T19:37:04.008459-0400 | INFO | Fisher's Exact Test for resection_1_gross_total: p-value=0.1937
+2025-04-04T19:37:04.008572-0400 | INFO | Analyzing add_chemo:
+2025-04-04T19:37:04.010935-0400 | INFO | add_chemo: Group 1 - 3/17 (0.18)
+2025-04-04T19:37:04.011036-0400 | INFO | add_chemo: Group 2 - 4/7 (0.57)
+2025-04-04T19:37:04.011784-0400 | INFO | Fisher's Exact Test for add_chemo: p-value=0.1336
+2025-04-04T19:37:04.011890-0400 | INFO | Analyzing add_radiation:
+2025-04-04T19:37:04.014682-0400 | INFO | add_radiation: Group 1 - 4/17 (0.24)
+2025-04-04T19:37:04.014807-0400 | INFO | add_radiation: Group 2 - 4/7 (0.57)
+2025-04-04T19:37:04.015679-0400 | INFO | Fisher's Exact Test for add_radiation: p-value=0.1670
+2025-04-04T19:37:04.015784-0400 | INFO | Analyzing presentation_1_age:
+2025-04-04T19:37:04.018356-0400 | INFO |  Age: Group 1 - Median: 21.0 (Range: 1.0-41.0)
+2025-04-04T19:37:04.018461-0400 | INFO |  Age: Group 2 - Median: 36.0 (Range: 9.0-44.0)
+2025-04-04T19:37:04.020396-0400 | INFO | t-test for presentation_1_age: p-value=0.0942
+2025-04-04T19:37:04.020518-0400 | INFO | Analyzing tumor_size:
+2025-04-04T19:37:04.023020-0400 | INFO |  tumor_size: Group 1 - Mean: 2.09 (SD: 1.21)
+2025-04-04T19:37:04.023137-0400 | INFO |  tumor_size: Group 2 - Mean: 4.23 (SD: 2.18)
+2025-04-04T19:37:04.025054-0400 | INFO | t-test for tumor_size: p-value=0.0291
+2025-04-04T19:37:04.025194-0400 | INFO | Analyzing tumor_mutational_burden:
+2025-04-04T19:37:04.027708-0400 | INFO |  tumor_mutational_burden: Group 1 - Mean: 3.98 (SD: 2.28)
+2025-04-04T19:37:04.027818-0400 | INFO |  tumor_mutational_burden: Group 2 - Mean: 4.14 (SD: 2.21)
+2025-04-04T19:37:04.029744-0400 | INFO | t-test for tumor_mutational_burden: p-value=0.9126
+2025-04-04T19:37:04.029873-0400 | INFO | 
+=== OUTCOME AFTER FIRST RESECTION (ANY SEIZURE) ===
+2025-04-04T19:37:04.032076-0400 | INFO | Seizure free after first resection: 17/26 (0.65)
+2025-04-04T19:37:04.032187-0400 | INFO | Not seizure free after first resection: 9/26 (0.35)
+2025-04-04T19:37:04.032273-0400 | INFO | 
+Factors associated with seizure freedom after first resection (all seizure patients):
+2025-04-04T19:37:04.032352-0400 | INFO | Analyzing sex_female:
+2025-04-04T19:37:04.034943-0400 | INFO | sex_female: Group 1 - 7/17 (0.41)
+2025-04-04T19:37:04.035095-0400 | INFO | sex_female: Group 2 - 5/9 (0.56)
+2025-04-04T19:37:04.035995-0400 | INFO | Fisher's Exact Test for sex_female: p-value=0.6828
+2025-04-04T19:37:04.036107-0400 | INFO | Analyzing tumor_left:
+2025-04-04T19:37:04.038927-0400 | INFO | tumor_left: Group 1 - 8/17 (0.47)
+2025-04-04T19:37:04.039042-0400 | INFO | tumor_left: Group 2 - 8/9 (0.89)
+2025-04-04T19:37:04.039952-0400 | INFO | Fisher's Exact Test for tumor_left: p-value=0.0873
+2025-04-04T19:37:04.040163-0400 | INFO | Analyzing tumor_frontal:
+2025-04-04T19:37:04.043617-0400 | INFO | tumor_frontal: Group 1 - 2/17 (0.12)
+2025-04-04T19:37:04.043738-0400 | INFO | tumor_frontal: Group 2 - 1/9 (0.11)
+2025-04-04T19:37:04.044091-0400 | INFO | Fisher's Exact Test for tumor_frontal: p-value=1.0000
+2025-04-04T19:37:04.044233-0400 | INFO | Analyzing tumor_temp:
+2025-04-04T19:37:04.046815-0400 | INFO | tumor_temp: Group 1 - 9/17 (0.53)
+2025-04-04T19:37:04.046941-0400 | INFO | tumor_temp: Group 2 - 5/9 (0.56)
+2025-04-04T19:37:04.047324-0400 | INFO | Fisher's Exact Test for tumor_temp: p-value=1.0000
+2025-04-04T19:37:04.047439-0400 | INFO | Analyzing tumor_parietal:
+2025-04-04T19:37:04.050158-0400 | INFO | tumor_parietal: Group 1 - 7/17 (0.41)
+2025-04-04T19:37:04.050275-0400 | INFO | tumor_parietal: Group 2 - 1/9 (0.11)
+2025-04-04T19:37:04.051221-0400 | INFO | Fisher's Exact Test for tumor_parietal: p-value=0.1902
+2025-04-04T19:37:04.051353-0400 | INFO | Analyzing tumor_occipital:
+2025-04-04T19:37:04.053882-0400 | INFO | tumor_occipital: Group 1 - 4/17 (0.24)
+2025-04-04T19:37:04.053988-0400 | INFO | tumor_occipital: Group 2 - 1/9 (0.11)
+2025-04-04T19:37:04.055144-0400 | INFO | Fisher's Exact Test for tumor_occipital: p-value=0.6279
+2025-04-04T19:37:04.055277-0400 | INFO | Analyzing tumor_insula:
+2025-04-04T19:37:04.057965-0400 | INFO | tumor_insula: Group 1 - 1/17 (0.06)
+2025-04-04T19:37:04.058083-0400 | INFO | tumor_insula: Group 2 - 1/9 (0.11)
+2025-04-04T19:37:04.058461-0400 | INFO | Fisher's Exact Test for tumor_insula: p-value=1.0000
+2025-04-04T19:37:04.058579-0400 | INFO | Analyzing tumor_subcort:
+2025-04-04T19:37:04.061200-0400 | INFO | tumor_subcort: Group 1 - 0/17 (0.00)
+2025-04-04T19:37:04.061318-0400 | INFO | tumor_subcort: Group 2 - 2/9 (0.22)
+2025-04-04T19:37:04.061889-0400 | INFO | Fisher's Exact Test for tumor_subcort: p-value=0.1108
+2025-04-04T19:37:04.062005-0400 | INFO | Analyzing mut_BRAF_V600E:
+2025-04-04T19:37:04.064680-0400 | INFO | mut_BRAF_V600E: Group 1 - 15/15 (1.00)
+2025-04-04T19:37:04.064785-0400 | INFO | mut_BRAF_V600E: Group 2 - 6/9 (0.67)
+2025-04-04T19:37:04.065539-0400 | INFO | Fisher's Exact Test for mut_BRAF_V600E: p-value=0.0415
+2025-04-04T19:37:04.065652-0400 | INFO | Analyzing mut_CDKN2AB:
+2025-04-04T19:37:04.068195-0400 | INFO | mut_CDKN2AB: Group 1 - 6/11 (0.55)
+2025-04-04T19:37:04.068312-0400 | INFO | mut_CDKN2AB: Group 2 - 7/9 (0.78)
+2025-04-04T19:37:04.069191-0400 | INFO | Fisher's Exact Test for mut_CDKN2AB: p-value=0.3742
+2025-04-04T19:37:04.069295-0400 | INFO | Analyzing mut_TERTp:
+2025-04-04T19:37:04.072832-0400 | INFO | mut_TERTp: Group 1 - 1/7 (0.14)
+2025-04-04T19:37:04.072961-0400 | INFO | mut_TERTp: Group 2 - 2/6 (0.33)
+2025-04-04T19:37:04.073829-0400 | INFO | Fisher's Exact Test for mut_TERTp: p-value=0.5594
+2025-04-04T19:37:04.073935-0400 | INFO | Analyzing tumor_grade_first:
+2025-04-04T19:37:04.076665-0400 | INFO | tumor_grade_first: Group 1 - 0/0 (nan)
+2025-04-04T19:37:04.076764-0400 | INFO | tumor_grade_first: Group 2 - 0/0 (nan)
+2025-04-04T19:37:04.076888-0400 | INFO | Fisher's Exact Test for tumor_grade_first: p-value=1.0000
+2025-04-04T19:37:04.076987-0400 | INFO | Analyzing resection_1_gross_total:
+2025-04-04T19:37:04.079390-0400 | INFO | resection_1_gross_total: Group 1 - 16/17 (0.94)
+2025-04-04T19:37:04.079485-0400 | INFO | resection_1_gross_total: Group 2 - 6/9 (0.67)
+2025-04-04T19:37:04.080159-0400 | INFO | Fisher's Exact Test for resection_1_gross_total: p-value=0.1039
+2025-04-04T19:37:04.080259-0400 | INFO | Analyzing add_chemo:
+2025-04-04T19:37:04.082484-0400 | INFO | add_chemo: Group 1 - 3/17 (0.18)
+2025-04-04T19:37:04.082596-0400 | INFO | add_chemo: Group 2 - 4/9 (0.44)
+2025-04-04T19:37:04.083342-0400 | INFO | Fisher's Exact Test for add_chemo: p-value=0.1881
+2025-04-04T19:37:04.083546-0400 | INFO | Analyzing add_radiation:
+2025-04-04T19:37:04.086895-0400 | INFO | add_radiation: Group 1 - 4/17 (0.24)
+2025-04-04T19:37:04.087091-0400 | INFO | add_radiation: Group 2 - 4/9 (0.44)
+2025-04-04T19:37:04.088067-0400 | INFO | Fisher's Exact Test for add_radiation: p-value=0.3821
+2025-04-04T19:37:04.088281-0400 | INFO | Analyzing presentation_1_age:
+2025-04-04T19:37:04.091114-0400 | INFO |  Age: Group 1 - Median: 21.0 (Range: 1.0-41.0)
+2025-04-04T19:37:04.091250-0400 | INFO |  Age: Group 2 - Median: 37.0 (Range: 9.0-50.0)
+2025-04-04T19:37:04.093142-0400 | INFO | t-test for presentation_1_age: p-value=0.0168
+2025-04-04T19:37:04.093284-0400 | INFO | Analyzing tumor_size:
+2025-04-04T19:37:04.096006-0400 | INFO |  tumor_size: Group 1 - Mean: 2.09 (SD: 1.21)
+2025-04-04T19:37:04.096131-0400 | INFO |  tumor_size: Group 2 - Mean: 4.25 (SD: 1.81)
+2025-04-04T19:37:04.098097-0400 | INFO | t-test for tumor_size: p-value=0.0096
+2025-04-04T19:37:04.098222-0400 | INFO | Analyzing tumor_mutational_burden:
+2025-04-04T19:37:04.100962-0400 | INFO |  tumor_mutational_burden: Group 1 - Mean: 3.98 (SD: 2.28)
+2025-04-04T19:37:04.101086-0400 | INFO |  tumor_mutational_burden: Group 2 - Mean: 4.22 (SD: 1.92)
+2025-04-04T19:37:04.103063-0400 | INFO | t-test for tumor_mutational_burden: p-value=0.8495
+2025-04-04T19:37:04.103247-0400 | INFO | 
+=== SURVIVAL ANALYSIS ===
+2025-04-04T19:37:04.722831-0400 | INFO | Saved figure to /Users/nishant/Dropbox/Sinha/Lab/Publications/2025/DanPXA/pxa/figures/survival_analysis_tre_vs_no_tre.png
+2025-04-04T19:37:04.739831-0400 | INFO | Log-rank test p-value: 0.0205
+2025-04-04T19:37:04.745387-0400 | INFO | Analysis complete!
